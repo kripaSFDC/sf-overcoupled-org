@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Bypass_Catalogue_Automation</name>
+    </customPermissions>
+    <description>The kill switch. Assign to a data-load user - or to yourself, on camera, to show automation stopping without a deployment.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>AIP Automation Bypass</label>
+</PermissionSet>

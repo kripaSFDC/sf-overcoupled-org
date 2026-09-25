@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Published when a catalogue price actually changes. This is the seam that breaks the trigger chain.</description>
+    <eventType>HighVolume</eventType>
+    <label>Listing Repricing</label>
+    <pluralLabel>Listing Repricing</pluralLabel>
+    <publishBehavior>PublishAfterCommit</publishBehavior>
+</CustomObject>

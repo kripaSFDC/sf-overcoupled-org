@@ -1,0 +1,18 @@
+{
+  "name": "sf-overcoupled-org",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Companion org for 'The Architect in Progress' W02 - data model coupling",
+  "scripts": {
+    "org:create": "sf org create scratch -f config/project-scratch-def.json -a aip-w02 -d -y 30",
+    "deploy:base": "sf project deploy start -d force-app/base",
+    "deploy:broken": "sf project deploy start -d force-app/broken",
+    "deploy:fixed": "sf project deploy start -d force-app/fixed",
+    "retire:broken": "sf project deploy start --manifest manifest/empty-package.xml --post-destructive-changes manifest/destructive-broken.xml",
+    "assign:perms": "sf org assign permset -n AIP_Demo_Operator",
+    "seed": "sf apex run -f scripts/apex/01-seed.apex",
+    "break": "sf apex run -f scripts/apex/02-break-it.apex",
+    "prove": "sf apex run -f scripts/apex/03-prove-it.apex",
+    "test": "sf apex run test -l RunLocalTests -w 20 -r human"
+  }
+}

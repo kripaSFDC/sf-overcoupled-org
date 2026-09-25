@@ -1,0 +1,12 @@
+.sfdx/
+.sf/
+.localdevserver/
+node_modules/
+*.log
+deploy-output.txt
+
+# Recording assets and binaries - not for the public repo
+docs/*.exe
+docs/*.mp4
+docs/*.pptx
+docs/*.png

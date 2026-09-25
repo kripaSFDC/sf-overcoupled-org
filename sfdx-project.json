@@ -1,0 +1,20 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app/base",
+      "default": true
+    },
+    {
+      "path": "force-app/broken",
+      "default": false
+    },
+    {
+      "path": "force-app/fixed",
+      "default": false
+    }
+  ],
+  "name": "sf-overcoupled-org",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "67.0"
+}

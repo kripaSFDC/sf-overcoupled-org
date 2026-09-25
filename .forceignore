@@ -1,0 +1,11 @@
+package.xml
+**/jsconfig.json
+**/.eslintrc.json
+**/__tests__/**
+.sfdx
+.sf
+
+# Profiles get pulled in by "Retrieve Source from Org" and then fail to deploy
+# because they reference classes that live in a different package directory.
+# Access for this project comes from AIP_Demo_Operator, not from a profile.
+**/profiles/**

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pack_Change</fullName>
+    <active>true</active>
+    <businessProcess>AIP_Catalogue_Process</businessProcess>
+    <description>Raised when pack size or presentation changes.</description>
+    <label>Pack Change</label>
+</RecordType>
